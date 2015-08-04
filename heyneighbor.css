@@ -6,6 +6,7 @@
  }
 body {
   margin: 0px;
+  background-image: url(assets/geometry2.png);
 }
 
 .slide-container {
@@ -310,7 +311,7 @@ float: right;
 
 .footer {
   width: 100%;
-  background-color: #eeeeee;
+  background-color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   color: #777777;
   margin: auto;
@@ -543,7 +544,7 @@ float: right;
   margin: 1% 0 1% 1.6%;
   position: relative;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { margin-left: 0; text-align: center; }
 
 .group:before,
 .group:after { content:""; display:table; }
@@ -578,7 +579,7 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  /*display: block;*/
   width: 100% \9;
   max-width: 100%;
   height: auto;
@@ -595,6 +596,18 @@ img {
 .logo-center {
   margin-top: 50%;
   tranform: translateY(-50%);
+}
+
+.download {
+  float: left;
+  margin-left: 5em;;
+}
+
+@media only screen and (max-width: 480px) {
+ .download {
+  float: none;
+  margin-left: 0;
+ }
 }
 
 
