@@ -6,7 +6,7 @@
  }
 body {
   margin: 0px;
-  background-image: url(assets/geometry2.png);
+  background-image: url(assets/doodle2.png);
 }
 
 .slide-container {
@@ -261,7 +261,7 @@ float: right;
 
   display: block;
   padding: 2em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   
   border-radius: $roundness;
@@ -319,7 +319,7 @@ float: right;
 
 
 .footer-inner {
-  max-width: 850px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -354,13 +354,13 @@ float: right;
     float: left;
     
   }
-  .footer-playstore-container {
+/*.footer-playstore-container {
     width: 100%;
     margin: auto;
     padding: 0 1em;
     float: left;
     
-  }
+  }*/
 
   .footer-inner > ul:after {
     content: "";
@@ -392,7 +392,7 @@ float: right;
   float: left;
 }
 
-.footer-playstore > a {
+/*.footer-playstore > a {
   display: block;
   line-height: 3.5em;
   text-transform: uppercase;
@@ -402,7 +402,7 @@ float: right;
   border: 0;
   opacity: .5;
   vertical-align: middle;
-}
+}*/
 
 .footer-social > a {
   display: block;
@@ -452,13 +452,13 @@ float: right;
   background-position: -160px center;
 }
 
-.footer-social-linkedin > a {
+/*.footer-social-linkedin > a {
   background-position: -120px center;
 }
 
 .footer-social-github > a {
   background-position: -40px center;
-}
+}*/
 
 .footer-item {
   float: none;
@@ -498,7 +498,7 @@ float: right;
   }
 }
 
-.footer-playstore > a:before {
+/*.footer-playstore > a:before {
   content: '';
   width: 40px;
   height: 3.5em;
@@ -508,7 +508,7 @@ float: right;
   background-position: -80px center;
   text-decoration: none;
   font-weight: 700;
-}
+}*/
 
 .container {
   padding-right: 15px;
